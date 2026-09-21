@@ -1,0 +1,63 @@
+@import "tailwindcss";
+@import "./tokens.css";
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  margin: 0;
+}
+
+html,
+body {
+  background: var(--color-background);
+}
+
+body {
+  overflow: hidden;
+  color: var(--color-text-primary);
+
+  background:
+    radial-gradient(
+      circle at 50% 32%,
+      rgb(255 90 39 / 4%),
+      transparent 32%
+    ),
+    radial-gradient(
+      circle at 80% 100%,
+      rgb(118 87 255 / 5%),
+      transparent 35%
+    ),
+    var(--color-background);
+
+  font-family:
+    Inter,
+    Ubuntu,
+    Cantarell,
+    "Segoe UI",
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+button {
+  border: 0;
+}
