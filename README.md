@@ -40,13 +40,13 @@ npm install
 Create or edit `.env` in the project root directory:
 
 ```env
-SUPABASE_URL=https://wrusratfqaxanolvywkz.supabase.co
-SUPABASE_SERVICE_ROLE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
-BUCKET_NAME=codebase
+SUPABASE_URL=
+SUPABASE_SERVICE_ROLE_KEY=
+BUCKET_NAME=
 
-VITE_SUPABASE_URL=https://wrusratfqaxanolvywkz.supabase.co
-VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
-VITE_GEMINI_API_KEY=your_gemini_api_key_here
+VITE_SUPABASE_URL=
+VITE_SUPABASE_ANON_KEY=
+VITE_GEMINI_API_KEY=
 ```
 
 ### 3. Start the Development Server
